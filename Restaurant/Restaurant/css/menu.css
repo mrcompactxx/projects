@@ -1,0 +1,169 @@
+body{
+    margin:auto;
+    background-color: #f0f5f9;
+}
+
+
+#menu-table{
+    position: absolute;
+    top: 18vh;
+
+}
+#menu-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:10vh;
+}
+
+#menu-div table tr th{
+    
+    transition: 0.3s;
+    font-size: 35px;
+}
+
+table tr th{
+    padding:20px;
+    font-size: 25px;
+    font-family:math;
+    background-color: black;
+    color:white;
+    opacity: 0.8;
+    border-radius:12px;
+
+}
+
+#menu-div table tr th:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: aliceblue;
+    color:black;
+}
+
+
+#dish-div{
+    position:absolute;
+    top:5vh;
+    left:0pc;
+}
+iframe{
+    height:550px;
+    width:720px;
+    position: absolute;
+    left:25pc;
+    top:35vh;
+}
+#image-div{
+    height: 1000px;
+}
+#image-div img{
+    height: 100%;
+    width:100%;
+}
+#pagination-div{
+    position: absolute;
+    top: 85vh;
+    left: 86vh;
+}
+
+button{
+    font-size: 25px;
+
+}
+
+#pagination-div a{
+    font-size: 23px;
+    padding:10px 45px;
+}
+
+#gallery-div1{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    position: absolute;
+    left: 19vh;
+    top: 100pc;
+  
+}
+
+
+#gallery-div2{
+    display: flex;
+    position: absolute;
+    left: 19vh;
+    top: 147.2pc;
+    width:1200px;
+    height:500px;
+}
+.img-size img{
+    height: 500px;
+    width: 400px;
+    font-family: math;
+    font-size: 29px;
+    opacity: 0.8;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.para-div{
+    position:absolute;
+    font-family: lucida sans;
+    font-size:30px;
+    color:white;
+    
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+}
+
+#gallery-para-div{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    position: absolute;
+    top: -32vh;
+    left: 67vh;
+}
+
+#gallery-para-div p{
+    color:#6969c2;;
+    font-size: 40px;
+    text-decoration: underline overline;
+    text-decoration-thickness: 2px;
+}
+
+#footer-div {
+    position: absolute;
+    left: 0;
+    bottom: -171pc;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    height: 417px;
+}
+
+#contact{
+    font-family:sans-serif;
+    font-weight:500;
+}
+
+#contact-div p{
+    font-size: 24px;
+}
+
+.info-font{
+
+    font-family: verdana;
+    font-size:25px;
+    font-weight: 500;
+}
+
+b{
+    font-weight: 500;
+    font-family: sans;
+    font-size: 30px;
+}
